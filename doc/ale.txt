@@ -61,6 +61,7 @@ CONTENTS                                                         *ale-contents*
     java..................................|ale-java-options|
       checkstyle..........................|ale-java-checkstyle|
       javac...............................|ale-java-javac|
+      mvn.................................|ale-java-mvn|
     javascript............................|ale-javascript-options|
       eslint..............................|ale-javascript-eslint|
       flow................................|ale-javascript-flow|
@@ -211,7 +212,7 @@ Notes:
 * Haskell: `ghc`, `stack-ghc`, `stack-build`!!, `ghc-mod`, `stack-ghc-mod`, `hlint`, `hdevtools`
 * HTML: `HTMLHint`, `proselint`, `tidy`
 * Idris: `idris`
-* Java: `checkstyle`, `javac`
+* Java: `checkstyle`, `javac`, `mvn`
 * JavaScript: `eslint`, `jscs`, `jshint`, `flow`, `prettier`, `prettier-eslint`, `prettier-standard`, `standard`, `xo`
 * JSON: `jsonlint`
 * Kotlin: `kotlinc`, `ktlint`

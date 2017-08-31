@@ -11,7 +11,8 @@ function! ale_linters#java#checkstyle#Handle(buffer, lines) abort
     for l:match in ale#util#GetMatches(a:lines, l:patterns)
         let l:args = {
         \   'lnum': l:match[2] + 0,
-        \   'type': l:match[1] =~? 'WARN' ? 'W' : 'E'
+        \   'type': l:match[1] =~? 'WARN' ? 'W' : 'E',
+        \   'sub_type': 'style',
         \ }
 
         let l:col = l:match[3] + 0
